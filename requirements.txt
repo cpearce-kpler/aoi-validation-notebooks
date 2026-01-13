@@ -1,0 +1,12 @@
+python-dotenv
+pandas
+numpy
+geopandas
+shapely
+pyproj
+fiona
+rtree
+psycopg2-binary
+pyodbc
+sqlalchemy
+jupyterlab
