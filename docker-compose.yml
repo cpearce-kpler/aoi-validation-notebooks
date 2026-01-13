@@ -1,0 +1,11 @@
+services:
+  notebooks:
+    build: .
+    container_name: aoi-notebooks
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/work
+    env_file:
+      - .env
+    working_dir: /work
