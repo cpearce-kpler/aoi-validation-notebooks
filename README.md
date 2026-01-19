@@ -15,8 +15,9 @@ The recommended approach is to ensure that the correct Python interpreter, packa
 8. Run the following to enter data into ais_replica.dbo.AREAS_STATIC in dbdev01 or dbprim03 environments: (remember to set DEV or PRIM in the .env file):
    python upload_aoi_to_mt.py
 
-If you need to convert the Jupyter Notebook to a Python file, one option is to cd to the correct directory then run the (example) code below
+If you need to convert the Jupyter Notebook to a Python file, one option is to cd to the correct directory then run the (example) code below:
 python -m jupytext --to py upload_aoi_to_mt.ipynb
 
-You can also convert from a Python file to a Jupyter Notebook
+You can also convert from a Python file to a Jupyter Notebook:
 python -m jupytext --to ipynb upload_aoi_to_mt.py
+
